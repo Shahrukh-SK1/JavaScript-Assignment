@@ -73,129 +73,42 @@ alert("I am trying to learn from the book " + book);
 
 
 
+// Chapter No. 3
+
+// Answer No. 1
+
+var age = 30;
+
+alert ("I am " + age + " years old");
+
+// Answer No. 2
+
+var count = 14;
+
+alert("You have visited this site " + count +" times");
+
+// Answer No. 3
+
+var birthYear = 1993;
+
+alert("My birth year is " + birthYear + "\nData type of my declared variable is number");
+
+// Answer No. 4
+
+var visitorName = "John Doe";
+var productTitle = "T-Shirts";
+var quantity = 5;
+
+alert(visitorName + "ordered " + quantity + productTitle + " on XYZ Clothing store");
 
 
-// var firstName = "Shahrukh"
-// var lastName = "Ayub"
-// var fullName = firstName + " " + lastName;
-// alert (fullName);  
+// Chapter No. 4
 
-// var nationality;
-// nationality = "Pakistan";
+// Answer No. 1
 
-// alert (nationality);
+var firstName = "Muhammad";
+var middleName = "Shahrukh";
+var lastName = "Ayub";
 
-// var thanks;
-// thanks = "Thanks for your input";
-
-// alert (thanks)
-
-// // Chapter No. 3
-
-// var num = 25;
-// var newNum = num + 5;
-// alert (newNum)
-
-// // Chapter No. 4
-
-// var userResponse;
-// userResponse = "Good";
-
-// alert (userResponse)
-
-
-
-// // Chapter No. 5
-
-// var popularNumber = 4;
-// var popularNumber = 2 + 2;
-
-// alert (2 + 2)
-
-// var number = 12;
-// var anotherNumber = 6;
-// var popularNumber = number + anotherNumber;
-
-// alert(popularNumber)
-
-// // Answer No 4
-
-// var num = 20;
-
-// alert(num % 6);
-
-// // Answer No 5
-
-// var largNum = 1000;
-
-// alert(largNum * 2000);
-
-// // Answer No 7
-
-// var doubledNum = 12 + 12;
-// alert(doubledNum);
-
-
-// // Answer No 10
-
-// var price = 100;
-// var qty = 10;
-
-// alert(price * qty);
-
-
-// // Answer No 10
-
-// var leftOver = 10 % 3;
-
-// alert(leftOver);
-
-
-// resultOfComputation = ((2 * 4) * 4) + 2;
-
-// alert(resultOfComputation);
-
-// // Answer No 15
-
-// var cost = 80;
-
-// alert(price - cost);
-
-
-
-// // Chapter No. 6
-
-
-// // Answer No 
-
-// var x = 50;
-// var y = --x;
-
-// alert(--x);
-
-// // Answer No 7
-
-// var newNum = 10;
-
-// // Answer No 10
-
-// var num = 5;
-// var newNum = --num;
-// console.log(newNum);
-
-// alert(newNum);
-
-// // Answer No 11
-
-// var num = 3;
-// var newNum = num++;
-// console.log(newNum);
-// alert(newNum++);
-
-
-
-
-
-
-
+alert(firstName + " " + middleName + " " + lastName);
 
