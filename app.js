@@ -112,3 +112,45 @@ var lastName = "Ayub";
 
 alert(firstName + " " + middleName + " " + lastName);
 
+console.log(firstName + " " + middleName + " " + lastName);
+
+
+// Answer No. 2
+
+// Legal Variable
+
+var firstName;     // userName – Starts with a letter.
+var _count;       // _count – Starts with an underscore (valid).
+var $price;       // $price – Starts with a dollar sign (valid).
+var number1;      // total5 – Contains a number but not at the start.
+var first_Name;   // my_variable – Uses underscore, which is allowed.
+
+// Illegal Variable
+
+// var var           // Reserved keyword in JavaScript. 
+// var 1number;       // Starts with a number (invalid).
+// var user-Name;     // Hyphens are not allowed in variable names.
+// var My variable;   // Spaces are not allowed.
+// var @value;        // @ is not a valid character for variable names.
+
+
+// Answer No. 2
+
+// b- letters, numbers, underscore, dollar sign
+// c- letter, underscore, dollar sign
+// d- case sensitive
+// e- keywords
+
+
+// Chapter No. 5
+
+// Answer No. 1
+
+var firstNum = 4;
+var secondNum = 6;
+
+var totalNum = (firstNum + secondNum);
+
+console.log(firstNum + secondNum);
+
+var totalNum = (firstNum * secondNum);
