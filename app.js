@@ -286,6 +286,7 @@ document.write("<br>")
 document.write("<br>")
 document.write("<br>")
 
+// Answer No. 9
 
 document.write("<h2>" + "Currency in PKR" + "</h2>" + "<br>");
 
@@ -298,10 +299,29 @@ var saudiRiyal = 28;
 var totalCurrency = (10 * usDollar + 25 * saudiRiyal);
 
 
-
 document.write("Total Currency in PKR: " + totalCurrency);
 
 document.write("<br>")
 document.write("<br>")
 
+// Answer No. 10
 
+var numbm = 8;
+
+alert(numbm + 5) * 10 / 2;
+
+document.write("<br>")
+document.write("<br>")
+
+// Answer No. 11
+
+
+document.write("<h2>" + "Age Calculator" + "</h2>" + "<br>");
+
+var currentYear = 2025;
+var birthYear = 1993;
+
+var age1 = (currentYear - birthYear);
+var age2 = (age1 - 1);
+
+document.write("They are either " + age1 + "or " + age2 + "years old");
