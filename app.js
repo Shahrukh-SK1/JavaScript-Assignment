@@ -112,7 +112,7 @@ var lastName = "Ayub";
 
 alert(firstName + " " + middleName + " " + lastName);
 
-console.log(firstName + " " + middleName + " " + lastName);
+alert(firstName + " " + middleName + " " + lastName);
 
 
 // Answer No. 2
@@ -144,13 +144,164 @@ var first_Name;   // my_variable – Uses underscore, which is allowed.
 
 // Chapter No. 5
 
-// Answer No. 1
+// Answer No. 1 & 2
 
 var firstNum = 4;
 var secondNum = 6;
 
 var totalNum = (firstNum + secondNum);
 
-console.log(firstNum + secondNum);
+alert(totalNum);
 
-var totalNum = (firstNum * secondNum);
+alert(firstNum + secondNum);
+alert(firstNum - secondNum);
+alert(firstNum * secondNum);
+
+
+// Answer No. 3
+
+var myNumb;
+
+myNumb = 5;
+
+alert(myNumb)
+
+alert("Initial value: " + myNumb + "'");
+
+myNumb++;
+
+alert("Value after increment is: " + myNumb);
+
+myNumb += 7;
+
+alert("Value after addition is " + myNumb);
+
+myNumb--;
+
+alert("Value after decrement is " + myNumb);
+
+var remainder = myNumb % 3;
+
+alert("The remainder is : " + remainder);
+
+
+// Answer No. 4
+
+var ticketPrice;
+ticketPrice = 600;
+
+var tC = ticketPrice * 5;
+
+alert("Total cost to buy 5 tickets to a movie is " + tC + "PKR");
+
+
+// Answer No. 5
+
+var num = prompt ("Enter a number for table");
+
+var num = Number(num);
+
+document.write("<h2>" + "Multiplicaion Table of " + num + "</h2>");
+
+document.write("<br>")
+document.write("<br>")
+
+document.write(num + " x 1 = " + num * 1 + "<br>");
+document.write(num + " x 2 = " + num * 2 + "<br>");
+document.write(num + " x 3 = " + num * 3 + "<br>");
+document.write(num + " x 4 = " + num * 4 + "<br>");
+document.write(num + " x 5 = " + num * 5 + "<br>");
+document.write(num + " x 6 = " + num * 6 + "<br>");
+document.write(num + " x 7 = " + num * 7 + "<br>");
+document.write(num + " x 8 = " + num * 8 + "<br>");
+document.write(num + " x 9 = " + num * 9 + "<br>");
+document.write(num + " x 10 = " + num *10 + "<br>");
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+// Answer No. 6
+
+var celsius = 25;
+
+var fahrenheit = (celsius * 9 / 5) + 32;
+
+document.write(celsius + "&deg;C" + " is " + fahrenheit + "&deg;" + "F");
+
+document.write("<br>")
+
+var fahrenheit2 = 70;
+
+var celsius2 = (fahrenheit2 - 32) * 5 / 9;
+
+document.write(fahrenheit2 + "&deg;F" + " is " + celsius2 + "&deg;C");
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+// Answer No. 7
+
+var pI1 = 650;
+var pI2 = 100;
+var shippingCharges = 100;
+
+document.write("<h2>" + "Shopping Cart" + "</h2>" + "<br>");
+
+document.write("Price of item 1 is " + pI1 + " <br> ");
+document.write("Quantity of item 1 is 3" + " <br> ");
+document.write("Price of item 1 is " + pI2 + " <br> ");
+document.write("Quantity of item 2 is 7" + " <br> ");
+document.write("Shipping Charges " + shippingCharges);
+
+var totalCost = ((pI1 * 3) + (pI2 * 7));
+
+document.write("<br>")
+document.write("<br>")
+
+document.write("Total cost of your order is " + totalCost);
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+// Answer No. 8
+
+document.write("<h2>" + "Marks Sheet" + "</h2>" + "<br>");
+
+var totalMarks = 980;
+var marksObtained = 804;
+
+document.write("Total Marks: " + totalMarks + "<br>");
+document.write("Mark Obtained: " + marksObtained + "<br>");
+document.write("Percentage: " + (marksObtained / totalMarks) * 100 + "%" + "<br>");
+
+console.log("Percentage: " + (marksObtained / totalMarks) * 100 + "%");
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+
+document.write("<h2>" + "Currency in PKR" + "</h2>" + "<br>");
+
+document.write("<br>")
+document.write("<br>")
+
+var usDollar = 104.80;
+var saudiRiyal = 28;
+
+var totalCurrency = (10 * usDollar + 25 * saudiRiyal);
+
+
+
+document.write("Total Currency in PKR: " + totalCurrency);
+
+document.write("<br>")
+document.write("<br>")
+
+
